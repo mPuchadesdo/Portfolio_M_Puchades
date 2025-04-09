@@ -29,7 +29,7 @@ st.set_page_config(
 )
 
 # Cargar modelo previamente entrenado
-preprocessing = joblib.load('src/utils/preprocessor.joblib')
+preprocessing = joblib.load('src\utils\preprocessor.joblib')
 modelo = joblib.load('src\models\car_price_model.joblib')
 
 # Título de la app
