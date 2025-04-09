@@ -33,7 +33,8 @@ st.set_page_config(
 current_dir = os.path.dirname(__file__)
 preprocessor_path = os.path.join(current_dir, "preprocessor.joblib")
 preprocessing = joblib.load(preprocessor_path)
-modelo = joblib.load("src/models/car_price_model.joblib")
+model_path = os.path.join(current_dir, "car_price_model.joblib")
+model = joblib.load(model_path)
 
 # Título de la app
 st.title('Predicción del precio de coches de segunda mano')
