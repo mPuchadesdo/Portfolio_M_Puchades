@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import joblib
 import pandas as pd
 import numpy as np
@@ -29,7 +30,9 @@ st.set_page_config(
 )
 
 # Cargar modelo previamente entrenado
-preprocessing = joblib.load("preprocessor.joblib")
+current_dir = os.path.dirname(__file__)
+preprocessor_path = os.path.join(current_dir, "preprocessor.joblib")
+preprocessing = joblib.load(preprocessor_path)
 modelo = joblib.load("src/models/car_price_model.joblib")
 
 # Título de la app
