@@ -34,7 +34,7 @@ current_dir = os.path.dirname(__file__)
 preprocessor_path = os.path.join(current_dir, "preprocessor.joblib")
 preprocessing = joblib.load(preprocessor_path)
 model_path = os.path.join(current_dir, "car_price_model.joblib")
-model = joblib.load(model_path)
+modelo = joblib.load(model_path)
 
 # Título de la app
 st.title('Predicción del precio de coches de segunda mano')
@@ -88,6 +88,6 @@ if st.button('Predecir precio'):
     # Por ejemplo: encoding, imputaciones, escalado...
     # entrada_procesada = preprocesar(entrada)
 
-    prediccion = model.predict(entrada)  # Usa el modelo sobre los datos preprocesados
+    prediccion = modelo.predict(entrada)  # Usa el modelo sobre los datos preprocesados
     st.success(f'El precio estimado del coche es: {prediccion[0]:,.2f} €')
     st.balloons()
