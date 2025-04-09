@@ -24,7 +24,7 @@ ipykernel==6.29.5
 ipython==8.18.1
 jedi==0.19.2
 Jinja2==3.1.6
-joblib==1.4.2
+joblib
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 jupyter_client==8.6.3
@@ -74,4 +74,3 @@ urllib3==2.3.0
 watchdog==6.0.0
 wcwidth==0.2.13
 zipp==3.21.0
-joblib
