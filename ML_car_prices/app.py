@@ -88,6 +88,6 @@ if st.button('Predecir precio'):
     # Por ejemplo: encoding, imputaciones, escalado...
     # entrada_procesada = preprocesar(entrada)
 
-    prediccion = modelo.predict(entrada)  # Usa el modelo sobre los datos preprocesados
+    prediccion = model.predict(entrada)  # Usa el modelo sobre los datos preprocesados
     st.success(f'El precio estimado del coche es: {prediccion[0]:,.2f} €')
     st.balloons()
