@@ -1,3 +1,4 @@
 env/
 src/data.csv
 src/modeling_process/data.csv
+src/utils/__pycache__
