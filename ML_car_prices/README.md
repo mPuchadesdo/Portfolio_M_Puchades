@@ -1,3 +1,9 @@
+---
+title: El_precio_de_su_coche
+app_file: gradio_app.py
+sdk: gradio
+sdk_version: 4.44.1
+---
 # El precio de los coches de segunda mano en España
 
 ## Descripción
