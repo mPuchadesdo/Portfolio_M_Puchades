@@ -1,11 +1,6 @@
----
-title: El_precio_de_su_coche
-app_file: gradio_app.py
-sdk: gradio
-sdk_version: 4.44.1
----
+
 # El precio de los coches de segunda mano en España
-[Click aquí para probarla en una aplicación web](https://huggingface.co/spaces/mpuchdo/El_precio_de_su_coche)
+[Click aquí para probar el modelo en una aplicación web](https://huggingface.co/spaces/mpuchdo/El_precio_de_su_coche)
 
 ## Descripción
 Debido a los cambios actuales en el mercado automovilístico en España, este proyecto trata de establecer el precio de coches de segunda mano según sus características y estado de desgaste, proporcionando una guía sobre la que estimar el coste.
