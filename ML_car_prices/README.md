@@ -10,46 +10,31 @@ sdk_version: 4.44.1
 Debido a los cambios actuales en el mercado automovilístico en España, este proyecto trata de establecer el precio de coches de segunda mano según sus características y estado de desgaste, proporcionando una guía sobre la que estimar el coste.
 
 Los datos han sido obtenidos de DataMarket, contando con los anuncios de las principales páginas de venta de coches de segunda mano. Los datos son principalmente del año 2023, e incluyen la siguiente información:
-- color: Color del vehículo.
-- currency: Moneda en la que está definido el precio del vehículo.
-- date: Fecha de extracción de la información.
-- dealer_address: Dirección del anunciante.
-- dealer_city: Ciudad del anunciante.
-- dealer_country_code: Código de país del anunciante
-- dealer_description: Descripción del anunciante.
-- dealer_is_professional: Determina si el anunciante es o no profesional.
-- dealer_name: Vendedor del vehículo. En el caso de vendedores particulares (no concesionarios), esta información está encriptada en el dataset para cumplir con la GDPR.
-- dealer_registered_at: Fecha de registro del anunciante en la plataforma.
-- dealer_website: Página web del anunciante.
 - dealer_zip_code: Código postal del anunciante.
-- description: Descripción presente en el anuncio del vehículo.
-- doors: Número de puertas del vehículo.
 - fuel: Tipo de combustible del vehículo (diésel, gasolina, eléctrico, híbrido).
-- is_professional: Indica si el vendedor es profesional (un concesionario).
 - kms: Kilometraje del vehículo.
-- location: Ciudad en la que se ha publicado el anuncio.
 - make: Marca del vehículo.
 - model: Modelo del vehículo.
-- photos: Número de fotos del vehículo disponibles en el anuncio.
 - power: Potencia del vehículo.
 - price: Precio de venta del vehículo.
-- publish_date: Fecha de publicación del anuncio.
 - shift: Tipo de cambio (Automático/Manual).
-- update_date: Fecha de actualización del anuncio.
-- vehicle_type: Tipo de vehículo: coche, moto...
 - version: Versión del vehículo.
 - year: Año de fabricación del vehículo.
-
+El dataset original tiene un mayor número de columnas, pero fueron descartadas porque no aportaban valor predictivo al modelo. 
 Pueden acceder a parte de los datos solicitándolos en la web de [DataMarket](https://datamarket.es).
 
 ## Estructura del Proyecto
 ```
 /
+|-- src/
 |-- src/data_sample/                 # Contiene una muestra del dataset utilizado
 |-- src/modeling_process/        
 |   |-- modeling_process_ES.ipynb    # Notebook que explica el proceso de preparado de las variables y entrena el modelo definitivo (en castellano)
 |   |-- modeling_process_ENG.ipynb   # Notebook que explica el proceso de preparado de las variables y entrena el modelo definitivo (en inglés)
 |-- src/utils/                       # Contiene archivos de utilidad (funciones de visualización, etc.)
+|-- car_price_model.joblib           # Modelo entrenado resultante del proyecto
+|-- preprocessor.joblib              # Preprocesador de variables para que la aplicación web funcione
+|-- gradio_app.py                    # Aplicación web
 |-- requirements.txt                 # Librerías necesarias para el proyecto
 |-- README.md                        # Documentación
 ```
