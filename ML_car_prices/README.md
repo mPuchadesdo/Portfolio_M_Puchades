@@ -46,15 +46,13 @@ pip install -r requirements.txt
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
-git lfs install
-git lfs pull
+git clone https://github.com/mPuchadesdo/Portfolio_M_Puchades/main/ML_car_prices/
+cd <tu_repositorio>
 ```
 
 2. Ejecutar el Jupyter Notebook para el entrenamiento:
 
-Abrir `results_notebook/results_notebook.ipynb` y ejecutar para ver el proceso de modelado.
+Abrir `modeling_process/modeling_process_ES.ipynb` y ejecutar para ver el proceso de modelado.
 
 
 ## Modelo
