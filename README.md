@@ -14,7 +14,7 @@
   - Análisis exploratorio de datos (EDA) con `Matplotlib` y `Seaborn`.
   - Modelado predictivo utilizando `Scikit-Learn` y `XGBoost`.
   - Evaluación del modelo mediante RMSE, alcanzando un error promedio de 700€.
-- **Aplicación web**: Se ha desarrollado una aplicación web para probar el modelo. Puedes acceder a ella haciendo clic [aquí](https://huggingface.co/spaces/mPuchadesdo/ML_car_prices).
+- **Aplicación web**: Se ha desarrollado una aplicación web para probar el modelo. Puedes acceder a ella haciendo clic [aquí](https://huggingface.co/spaces/mpuchdo/El_precio_de_su_coche).
 
 📄 Consulta el [README del proyecto](./ML_car_prices/README.md) para más detalles.
 
