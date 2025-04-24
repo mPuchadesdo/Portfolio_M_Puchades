@@ -1,6 +1,6 @@
 # 📁 Portfolio de Proyectos – Mariano Puchades
 
-¡Bienvenido/a! Soy **Mariano Puchades**, Data Scientist con experiencia en el sector sanitario y deportivo, en proceso de transición hacia el análisis de datos. Este repositorio recopila mis proyectos personales desarrollados durante mi formación y aprendizaje autodidacta en Ciencia de Datos.
+¡Bienvenido/a! Soy **Mariano Puchades**, Data Scientist con experiencia en el sector sanitario y deportivo, en proceso de transición hacia el análisis de datos. Este repositorio recopila mis proyectos personales desarrollados durante mi formación y aprendizaje autodidacta en Ciencia de Datos. También soy un apasionado de los coches, por ello encontrarás proyectos relacionados con ese tema.
 
 ---
 
