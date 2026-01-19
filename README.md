@@ -1,6 +1,6 @@
 # 📁 Portfolio de Proyectos – Mariano Puchades
 
-¡Bienvenido/a! Soy **Mariano Puchades**, Data Scientist con experiencia en el sector sanitario y deportivo, en proceso de transición hacia el análisis de datos. Este repositorio recopila mis proyectos personales desarrollados durante mi formación y aprendizaje autodidacta en Ciencia de Datos. También soy un apasionado de los coches, por ello encontrarás proyectos relacionados con ese tema.
+¡Bienvenido/a! Soy **Mariano Puchades**, Data Analyst con experiencia en el sector sanitario y deportivo, en proceso de transición hacia el análisis de datos. Este repositorio recopila mis proyectos personales desarrollados durante mi formación y aprendizaje autodidacta en Ciencia de Datos. También soy un apasionado de los coches, por ello encontrarás proyectos relacionados con ese tema.
 
 ---
 
@@ -20,13 +20,24 @@
 
 ---
 
+## 📄 Plantillas Excel
+
+**Objetivo**: Compartir plantillas descargables para utilizarlas en casos concretos.
+
+- **Plantillas actuales**:
+- Clases_grupales.xlsm  - plantilla con un horario semanal para organizar las clases de pilates o entrenamiento en un centro pequeño. También tiene tablas con control de errores y listas desplegables para anotar pacientes interesados en las clases.
+
+📄 Consulta el [README de las plantillas](./Plantillas_Excel/README.md) para más detalles.
+
+---
+
 ## 📈 Próximos Proyectos
 
 Estoy trabajando en nuevos proyectos que incluirán:
 
 - Análisis de datos clínicos para predecir tiempos de recuperación en pacientes.
 - Modelos de clasificación para identificar riesgos en lesiones deportivas.
-- Visualización de datos interactiva con `Power BI` y `Tableau`.
+- Visualización de datos interactiva con `Power BI`.
 
 ---
 
@@ -34,7 +45,7 @@ Estoy trabajando en nuevos proyectos que incluirán:
 
 - **Lenguajes**: Python, SQL  
 - **Bibliotecas**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, XGBoost  
-- **Herramientas**: Jupyter Notebook, VSCode, Git, GitHub  
+- **Herramientas**: Jupyter Notebook, VSCode, Git, GitHub, Excel  
 - **Cloud**: AWS (nivel básico)  
 - **Otros**: Power BI, Google Colab  
 
