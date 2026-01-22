@@ -20,11 +20,24 @@
 
 ---
 
+## 📊 Proyectos con Power BI
+
+**Objetivo**: Crear informes y dashboards con Power BI (incluyendo Power Query, DAX y Excel en algunos casos).
+
+**Proyectos actuales**:
+- Informes sobre estudios de fisioterapia: en la carpeta Estudios_fisioterapia se pueden encontrar informes que muestran los resultados de diferentes estudios del ámbito de la fisioterapia. 
+Actualmente encontramos los siguientes:
+  - Evaluación del trapecio inferior con modo M: el objetivo de este trabajo es estudiar si existen diferencias en la función del trapecio inferior entre sujetos sanos y sujetos con dolor cervical unilateral por medio de distintas variables ecográficas obtenidas mediante modo M.
+
+📄 Consulta el [README de los proyectos con Power BI](./Power_BI/README.md) para más detalles.
+
+---
+
 ## 📄 Plantillas Excel
 
 **Objetivo**: Compartir plantillas descargables para utilizarlas en casos concretos.
 
-- **Plantillas actuales**:
+**Plantillas actuales**:
 - Clases_grupales.xlsm  - plantilla con un horario semanal para organizar las clases de pilates o entrenamiento en un centro pequeño. También tiene tablas con control de errores y listas desplegables para anotar pacientes interesados en las clases.
 
 📄 Consulta el [README de las plantillas](./Plantillas_Excel/README.md) para más detalles.
