@@ -7,7 +7,7 @@ En esta carpeta del repositorio voy a compartir diferentes proyectos realizados 
 
 ## Estudios de fisioterapia
 
-### [Evaluación del trapecio inferior con modo M](https://github.com/mPuchadesdo/Portfolio_M_Puchades/blob/main/Power_BI/Estudios_fisioterapia/Evaluaci%C3%B3n_trapecio_inferior/EVALUACI%C3%93N%20DEL%20TRAPECIO%20INFERIOR%20CON%20MODO%20M%20EN%20DOLOR%20DE%20CUELLO.pdf)
+### [Evaluación del trapecio inferior con modo M](https://github.com/mPuchadesdo/Portfolio_M_Puchades/blob/ab86a74e37273ff85f09c8fe232e96f8c76ebf4f/Power_BI/Estudios_fisioterapia/Evaluaci%C3%B3n_trapecio_inferior_modo_M/EVALUACI%C3%93N%20DEL%20TRAPECIO%20INFERIOR%20CON%20MODO%20M%20EN%20DOLOR%20DE%20CUELLO.pdf)
 
 Objetivo: estudiar si existen diferencias en la función del trapecio inferior entre sujetos sanos y sujetos con dolor cervical unilateral por medio de distintas variables ecográficas obtenidas mediante modo M.
 
