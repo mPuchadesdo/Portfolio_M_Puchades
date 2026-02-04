@@ -5,7 +5,27 @@ En esta carpeta del repositorio voy a compartir diferentes plantillas de Excel d
 
 ---
 
-## Plantilla de clases grupales (Clases_grupales.xlsm)
+## Plantilla de balance económico (balance_económico.xlsx)
+
+Esta plantilla está compuesta de una hoja con el resumen económico del año y 12 hojas más, una para cada mes, con los ingresos y gastos detallados. 
+Cuenta con:
+- Una primera hoja con el resumen económico del año, que se va rellenando automáticamente conforme introducimos los datos de cada mes en su correspondiente hoja. Contiene los ingresos y gastos totales de cada mes y calcula el su balance y el acumulativo mes a mes. También tiene dos gráficas, una con el ahorro mensual y otra con los ingresos/gastos mensuales.
+- He introducido diferentes valores que se calculan automáticamente:
+    - Mayor, medio y mínimo ingreso
+    - Mayor, medio y mínimio gasto
+    - Objetivo de ahorro mensual: es un valor que puede modificarse y cambia el formato condicional: si se supera ese valor en el balance mensual, la celda se colorea de verde, si no se supera pero es positivo, de amarillo y si el balance es negativo, de rojo.
+- Una hoja para cada mes, en la que encontramos 3 tablas, las cuales se pueden filtrar por todas sus columnas y una gráfica:
+    - Ingresos del mes: tiene 3 columnas, concepto, categoría y monto.
+    - Gastos del mes: tiene las mismas 3 columnas.
+    - Gastos por categoría: es una tabla dinámica que contiene la suma de los gastos por categoría, con dos columnas, la de categoría y la de suma.
+    - Gráfica de barras agrupadas asociado a la tabla dinámica de gastos por categoría, se actualiza a la vez que la tabla.
+
+He intentado que sea una plantilla con una estética intuitiva y sencilla, que permita analizar los ingresos y gastos personales. Os dejo unas imágenes de cómo se ve una vez rellena. Hay que tener en cuenta que es una plantilla enfocada en controlar la economía personal, del día a día, a nivel usuario, por ello buscamos esa simplicidad y manejabilidad.
+Si quieres utilizarla, lo único que tienes que hacer es descargarla de mi portfolio, cambiar los datos introducidos en la tabla de ingresos y de gastos de cada mes por los tuyos y actualizar la tabla de gastos por categoría. De esta manera se actualizará de manera automática la hoja de Resumen anual.
+
+---
+
+## Plantilla de clases grupales (clases_grupales.xlsm)
 
 Esta plantilla propone un calendario semanal sencillo para poder organizar los grupos de entrenamiento, pilates, etc. en centros pequeños, por ejemplo, de fisioterapia o de entrenamiento funcional.
 Cuenta con:
