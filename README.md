@@ -38,7 +38,7 @@ Actualmente encontramos los siguientes:
 **Objetivo**: Compartir plantillas descargables para utilizarlas en casos concretos.
 
 **Plantillas actuales**:
-- balance_económico.xlsm  - plantilla con una hoja para cada mes donde se pueden detallar los gastos y los ingresos. Tiene una hoja resumen donde aparecen los ingresos y gastos totales de cada mes junto a gráficas para hacer más fácil su visualización. Es una plantilla destinada a llevar un control de gastos personales.
+- balance_económico.xlsx  - plantilla con una hoja para cada mes donde se pueden detallar los gastos y los ingresos. Tiene una hoja resumen donde aparecen los ingresos y gastos totales de cada mes junto a gráficas para hacer más fácil su visualización. Es una plantilla destinada a llevar un control de gastos personales.
 - clases_grupales.xlsm  - plantilla con un horario semanal para organizar las clases de pilates o entrenamiento en un centro pequeño. También tiene tablas con control de errores y listas desplegables para anotar pacientes interesados en las clases.
 
 📄 Consulta el [README de las plantillas](./plantillas_Excel/README.md) para más detalles.
