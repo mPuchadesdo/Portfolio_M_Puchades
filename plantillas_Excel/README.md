@@ -20,7 +20,7 @@ Cuenta con:
     - Gastos por categoría: es una tabla dinámica que contiene la suma de los gastos por categoría, con dos columnas, la de categoría y la de suma.
     - Gráfica de barras agrupadas asociado a la tabla dinámica de gastos por categoría, se actualiza a la vez que la tabla.
 
-He intentado que sea una plantilla con una estética intuitiva y sencilla, que permita analizar los ingresos y gastos personales. Os dejo unas imágenes de cómo se ve una vez rellena. Hay que tener en cuenta que es una plantilla enfocada en controlar la economía personal, del día a día, a nivel usuario, por ello buscamos esa simplicidad y manejabilidad.
+He intentado que sea una plantilla con una estética intuitiva y sencilla, que permita analizar los ingresos y gastos personales. Hay que tener en cuenta que es una plantilla enfocada en controlar la economía personal, del día a día, a nivel usuario, por ello buscamos esa simplicidad y manejabilidad.
 Si quieres utilizarla, lo único que tienes que hacer es descargarla de mi portfolio, cambiar los datos introducidos en la tabla de ingresos y de gastos de cada mes por los tuyos y actualizar la tabla de gastos por categoría. De esta manera se actualizará de manera automática la hoja de Resumen anual.
 
 ---
